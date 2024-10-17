@@ -122,7 +122,7 @@ function endGame() {
     gameOverMessage.style.fontSize = '30px';
     gameOverMessage.style.color = 'red';
     gameOverMessage.style.textAlign = 'center';
-    gameOverMessage.innerHTML = `Time up!<br>Score: ${score}<br><a href="index.html">Click to play again.</a><br><br><a class="lnk" target="_blank" href="https://srv04.s13.starbed.corp/wp1/">Click to get mangos and tomatoes!!</a><br><a class="lnk" target="_blank" href="https://srv10.s13.starbed.corp/">Click to get shirts!!</a><br><a href="http://union-e.starbed.corp/">Click here to visit out JV shop!!!!!!!!!!!</a><br><br><a target="_blank" href="https://www.s13.starbed.corp/">Powered by Team13</a>`;
+    gameOverMessage.innerHTML = `Time up!<br>Score: ${score}<br><a href="index.html">Click to play again.</a>`;
 
     document.body.appendChild(gameOverMessage);
 }
